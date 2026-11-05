@@ -1,0 +1,14 @@
+{
+  "gta5.meta": {
+    "url": "https://raw.githubusercontent.com/DevSync-Studio/GTA5-Door-Editor/a71ab13d4a9867e62110e1a5b18af0ac3879a001/src/assets/vanilla/gta5.meta",
+    "sha256": "31022bf046357ca81161f5ea8fd55a6400d25ca5afb65aae1dfce28d6549a027"
+  },
+  "doortuning.ymt": {
+    "url": "https://raw.githubusercontent.com/DevSync-Studio/GTA5-Door-Editor/a71ab13d4a9867e62110e1a5b18af0ac3879a001/src/assets/vanilla/doortuning.ymt",
+    "sha256": "0dbc32738291005b105b0423502fcc4e81fad7e3f7159616bf19c17fe34455e7"
+  },
+  "LICENSE": {
+    "url": "https://raw.githubusercontent.com/DevSync-Studio/GTA5-Door-Editor/a71ab13d4a9867e62110e1a5b18af0ac3879a001/LICENSE",
+    "sha256": "b17078b6d4faa48b138ae66deb1eade6829907405241bf94b8565d1df22117c7"
+  }
+}

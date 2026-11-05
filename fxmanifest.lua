@@ -2,7 +2,7 @@ fx_version 'cerulean'
 game 'gta5'
 author 'Blue-Box'
 description 'Seven blank rentable shops with uniform double doors and storefronts at Del Perro Plaza: bp_dp01-05, bp_dp07 and bp_dp08. Built by _assets/blue_plazas/tools/build_delperro.py'
-version '1.7.1'
+version '1.7.2'
 
 this_is_a_map 'yes'
 

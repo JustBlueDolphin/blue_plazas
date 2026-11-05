@@ -2,6 +2,19 @@
 
 Seven blank shop interiors at Del Perro Plaza, intended for players to furnish as their own businesses.
 
+## Installation — choose one door-tuning route
+
+> **If your server already uses a custom `gta5.meta`, a `replace_level_meta` resource, or `doortuning.ymt` (including Gabz), you MUST merge the supplied plaza tuning profile and model mapping into your existing central `doortuning.ymt`. Integrate its `DOOR_TUNING_FILE` reference into your existing `gta5.meta` only as needed. Preserve existing entries and unrelated meta settings. Do not overwrite existing files or enable a second competing standalone `gta5.meta` replacement. If the existing reference already points to the central file being updated, leave it unchanged.**
+
+**Tip:** Using an AI coding assistant can make this merge much quicker than doing it manually. Give it your existing `gta5.meta` and `doortuning.ymt` plus the supplied plaza entries, and ask it to preserve existing settings and avoid duplicate profiles or mappings. Back up your files and check the result before installing.
+
+- **No existing central owner:** install `blue_plazas` and the optional `blue_plazas_doortuning` companion as separate sibling resources. Start the companion first, then the plaza. The main MLO does not require Gabz.
+- **Existing owner:** keep it, merge the additions, and start `blue_plazas` after it. Do **not** enable the standalone companion.
+
+**[Full installation, exact merge entries and verification](integration/doortuning/README.md)** · [Optional companion source](optional/blue_plazas_doortuning/) · [Downloads](https://github.com/JustBlueDolphin/blue_plazas/releases)
+
+The optional companion uses a pinned AGPL-3.0 vanilla baseline with its license/source notices included. Full Gabz tuning files are not distributed. The new v1.7.2 door setup is file-validated and awaiting game testing.
+
 ## Folder structure
 
 ```text
@@ -14,6 +27,8 @@ blue_plazas/
 │   └── STRUCTURE.md          # Folder guide and update instructions
 ├── tools/
 │   └── resource_layout.py    # Validate or organize a build
+├── integration/doortuning/   # Plaza-only entries and central-file merge tool
+├── optional/                # Standalone companion; enable ONLY when appropriate
 └── stream/
     ├── _manifest.ymf         # Interior registration
     ├── interiors/
@@ -33,13 +48,13 @@ blue_plazas/
     └── audio/                # Per-interior numeric audio metadata (.ymt)
 ```
 
-See [the folder guide](docs/STRUCTURE.md) before updating an existing installation. This reorganization preserves all 108 streamed asset names and their contents.
+See [the folder guide](docs/STRUCTURE.md) before updating an existing installation. The folder reorganization preserved all 108 asset names and contents. The subsequent v1.7.2 door update changes only the door archetype's Normal Door attribute in the YTYP.
 
-## Testing v1.7.1
+## Testing v1.7.2
 
 **[Open the full testing checklist](TESTING.md)**
 
-Initial user feedback is that the latest fixes work so far. Full testing is still pending. The checklist covers every shop, front-to-rear visibility, window LOD transitions, doors, collision, surfaces, lighting, audio, multiplayer, and performance.
+Initial v1.7.1 user feedback was that the visual fixes work so far. The new v1.7.2 folder installation and door tuning are **not yet game-tested**. The checklist covers every shop, front-to-rear visibility, window LOD transitions, doors, collision, surfaces, lighting, audio, multiplayer, and performance.
 
 Current units: `bp_dp01`, `bp_dp02`, `bp_dp03`, `bp_dp04`, `bp_dp05`, `bp_dp07`, and `bp_dp08`.
 

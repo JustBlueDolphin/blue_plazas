@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CDoorTuningFile>
+  <NamedTuningArray>
+    <Item>
+      <Name>bp_shop_standard</Name>
+      <Tuning>
+        <AutoOpenVolumeOffset x="0" y="0" z="0" />
+        <Flags>DelayDoorClosingForPlayer</Flags>
+        <AutoOpenRadiusModifier value="1" />
+        <AutoOpenRate value="0.5" />
+        <AutoOpenCosineAngleBetweenThreshold value="-1" />
+        <AutoOpenCloseRateTaper value="false" />
+        <UseAutoOpenTriggerBox value="false" />
+        <CustomTriggerBox value="false" />
+        <TriggerBoxMinMax>
+          <min x="0" y="0" z="0" />
+          <max x="0" y="0" z="0" />
+        </TriggerBoxMinMax>
+        <BreakableByVehicle value="false" />
+        <BreakingImpulse value="0" />
+        <ShouldLatchShut value="false" />
+        <MassMultiplier value="1" />
+        <WeaponImpulseMultiplier value="1" />
+        <RotationLimitAngle value="0" />
+        <TorqueAngularVelocityLimit value="5" />
+        <StdDoorRotDir>StdDoorOpenBothDir</StdDoorRotDir>
+      </Tuning>
+    </Item>
+  </NamedTuningArray>
+  <ModelToTuneMapping>
+    <Item>
+      <ModelName>bp_shop_door</ModelName>
+      <TuningName>bp_shop_standard</TuningName>
+    </Item>
+  </ModelToTuneMapping>
+</CDoorTuningFile>

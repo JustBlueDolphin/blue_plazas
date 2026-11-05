@@ -2,6 +2,8 @@
 
 This is a folder-only reorganization of the v1.7.1 runtime assets. All 108 streamed filenames and binary contents are preserved; geometry, portal settings, LOD distances and audio behaviour have not been changed by the move.
 
+The subsequent v1.7.2 door-tuning package adds `integration/doortuning/`, an opt-in companion under `optional/`, and the Normal Door (7) archetype correction. That metadata correction is separate from the folder-only move. See the [mandatory route-selection/merge notice](../integration/doortuning/README.md) before enabling door tuning.
+
 ## Where files belong
 
 | Location | Contents |

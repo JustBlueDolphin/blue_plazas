@@ -1,0 +1,3 @@
+The `plaza_entries.xml` baseline profile is derived from the vanilla `DefaultStandard` entry published in DevSync Studio's GTA5 Door Editor under AGPL-3.0, Copyright (c) 2026 DevSync Studio. It is renamed `bp_shop_standard` and accompanied by the `bp_shop_door` model mapping. Source commit: `a71ab13d4a9867e62110e1a5b18af0ac3879a001`.
+
+Keep `LICENSE-AGPL-3.0.txt` and `BASELINE_SOURCES.json` with redistribution of this baseline-derived fragment. The full source form of the fragment is included. No Gabz tuning file is included; `merge.py` reads the recipient's existing baseline at their installation and does not embed vendor data.

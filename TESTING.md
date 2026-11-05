@@ -1,8 +1,21 @@
-# Del Perro Plaza — v1.7.1 testing checklist
+# Del Perro Plaza — v1.7.2 testing checklist
 
-**Status:** initial user smoke test reported working; detailed verification is pending. All boxes below start unchecked. Compiled-file checks do not count as in-game passes.
+**Status:** v1.7.1's initial user smoke test reported working; detailed verification is pending. The v1.7.2 organized installation and door tuning are file-validated only, with both tuning routes awaiting game testing. All boxes below start unchecked. Compiled-file checks do not count as in-game passes.
 
 Test the actual deployed server with its normal map resources enabled, including `cfx-gabz-mapdata`. Record a result for each shop rather than assuming one passing shop covers the others.
+
+For recipients without Gabz, test the standalone route on their normal server setup. For recipients with an existing `gta5.meta`/`doortuning.ymt` owner, use the merge route. Never enable both. Follow the [installation/merge notice](integration/doortuning/README.md).
+
+## Door-tuning installation gate
+
+- [ ] Record the selected route: standalone companion / existing central-file merge. Verify only one central level-meta owner is enabled.
+- [ ] Confirm the central `gta5.meta` points to the intended `DOOR_TUNING_FILE`, with no unnecessary changes to existing metadata.
+- [ ] Confirm `bp_shop_standard` and its `bp_shop_door` mapping occur once; all tuning references resolve and existing entries are preserved.
+- [ ] Start the server from closed and reconnect. A hot resource restart does not count as reloading level metadata.
+- [ ] Test every entrance and all 20 leaves: push both sides, opening/closing, baseline latching behaviour, swing clearance and any existing doorlocks.
+- [ ] Test stream-out/back, a fresh reconnect, and mirrored left/right leaves with a second client.
+- [ ] Test unrelated stock/Gabz doors for regression, including sliding/garage behaviour where available.
+- [ ] Record exact build and baseline/source version. FiveM Legacy b3889 is the current target, but neither route has a recorded in-game pass yet; do not assume other builds/Enhanced are supported.
 
 ## 1. Record the test session
 
@@ -142,7 +155,7 @@ Use two clients where possible. Test a consistent game-world sound first, then a
 Create an issue in this repository. Use one issue per distinct defect and link it in the shop coverage table.
 
 ```text
-Title: [v1.7.1] [unit/area] Short description
+Title: [v1.7.2] [unit/area] Short description
 Version / commit:
 FiveM build / client channel:
 Unit and entrance (or coordinates):
