@@ -1,4 +1,4 @@
-# Blue Plazas
+# Blue Plazas (Full ai made)
 
 Seven blank shop interiors at Del Perro Plaza, intended for players to furnish as their own businesses.
 
