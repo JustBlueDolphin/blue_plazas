@@ -1,0 +1,21 @@
+door_id,shop_id,entrance_id,level,entrance_name,side_from_outside,model,x,y,z,entity_index_zero_based,portal_index_zero_based
+DP01-D1-L,DP01,DP01-D1,ground,Front entrance,L,bp_shop_door,-1540.76981,-427.69196,35.895,7,4
+DP01-D1-R,DP01,DP01-D1,ground,Front entrance,R,bp_shop_door,-1539.39329,-426.06651,35.895,6,4
+DP02-D1-L,DP02,DP02-D1,ground,Front entrance,L,bp_shop_door,-1536.24596,-422.35012,35.895,8,5
+DP02-D1-R,DP02,DP02-D1,ground,Front entrance,R,bp_shop_door,-1534.86943,-420.72467,35.895,7,5
+DP03-D1-L,DP03,DP03-D1,ground,Front entrance,L,bp_shop_door,-1530.49425,-415.55834,35.895,8,5
+DP03-D1-R,DP03,DP03-D1,ground,Front entrance,R,bp_shop_door,-1529.11772,-413.93289,35.895,7,5
+DP04-D1-L,DP04,DP04-D1,ground,Front entrance,L,bp_shop_door,-1525.10455,-409.19394,35.895,7,4
+DP04-D1-R,DP04,DP04-D1,ground,Front entrance,R,bp_shop_door,-1523.72802,-407.56849,35.895,6,4
+DP05-D1-L,DP05,DP05-D1,ground,Front · outer entrance,L,bp_shop_door,-1534.08203,-454.49165,36.165,9,6
+DP05-D1-R,DP05,DP05-D1,ground,Front · outer entrance,R,bp_shop_door,-1535.70747,-453.11513,36.165,8,6
+DP05-D2-L,DP05,DP05-D2,ground,Front · tower-side entrance,L,bp_shop_door,-1542.1711,-447.64133,36.165,15,11
+DP05-D2-R,DP05,DP05-D2,ground,Front · tower-side entrance,R,bp_shop_door,-1543.79654,-446.26481,36.165,14,11
+DP05-D3-L,DP05,DP05-D3,ground,Rear entrance,L,bp_shop_door,-1547.70829,-465.98483,36.465,20,15
+DP05-D3-R,DP05,DP05-D3,ground,Rear entrance,R,bp_shop_door,-1545.57946,-466.05534,36.465,19,15
+DP07-D1-L,DP07,DP07-D1,ground,Front entrance,L,bp_shop_door,-1550.34328,-436.1434,36.165,8,5
+DP07-D1-R,DP07,DP07-D1,ground,Front entrance,R,bp_shop_door,-1548.96675,-434.51795,36.165,7,5
+DP08-D1-L,DP08,DP08-D1,upper,Upper stair / tower entrance,L,bp_shop_door,-1554.81101,-446.31955,40.795,8,5
+DP08-D1-R,DP08,DP08-D1,upper,Upper stair / tower entrance,R,bp_shop_door,-1556.43645,-444.94303,40.795,7,5
+DP08-D2-L,DP08,DP08-D2,upper,Upper terrace entrance,L,bp_shop_door,-1540.49001,-455.89215,40.795,18,14
+DP08-D2-R,DP08,DP08-D2,upper,Upper terrace entrance,R,bp_shop_door,-1542.11545,-454.51563,40.795,17,14

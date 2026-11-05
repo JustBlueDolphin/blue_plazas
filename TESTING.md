@@ -6,6 +6,8 @@ Test the actual deployed server with its normal map resources enabled, including
 
 For recipients without Gabz, test the standalone route on their normal server setup. For recipients with an existing `gta5.meta`/`doortuning.ymt` owner, use the merge route. Never enable both. Follow the [installation/merge notice](integration/doortuning/README.md).
 
+Use the **[shop map and complete door names](docs/SHOP_MAP.md)** for directions and issue reports. Confirm all ten entrance markers on site, and record leaf-specific failures with IDs such as `DP05-D3-R`. Left/right means viewed from outside looking into that entrance.
+
 ## Door-tuning installation gate
 
 - [ ] Record the selected route: standalone companion / existing central-file merge. Verify only one central level-meta owner is enabled.

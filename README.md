@@ -2,6 +2,14 @@
 
 Seven blank shop interiors at Del Perro Plaza, intended for players to furnish as their own businesses.
 
+## Shop map and door names
+
+[![Labelled ground and upper floor shop map](docs/maps/plaza_shop_map.png)](docs/SHOP_MAP.md)
+
+**[Open the shop and door guide](docs/SHOP_MAP.md)** | [Full-size map PNG](docs/maps/plaza_shop_map.png) | [Door coordinates CSV](docs/maps/door_schedule.csv)
+
+Every shop, entrance and door leaf is labelled. For example, `DP05-D3-L` is the left leaf of DP05's rear entrance, viewed from outside looking in. The labels and coordinates help with player directions, testing and doorlock setup.
+
 ## Installation — choose one door-tuning route
 
 > **If your server already uses a custom `gta5.meta`, a `replace_level_meta` resource, or `doortuning.ymt` (including Gabz), you MUST merge the supplied plaza tuning profile and model mapping into your existing central `doortuning.ymt`. Integrate its `DOOR_TUNING_FILE` reference into your existing `gta5.meta` only as needed. Preserve existing entries and unrelated meta settings. Do not overwrite existing files or enable a second competing standalone `gta5.meta` replacement. If the existing reference already points to the central file being updated, leave it unchanged.**
