@@ -2,6 +2,39 @@
 
 Seven blank shop interiors at Del Perro Plaza, intended for players to furnish as their own businesses.
 
+## Folder structure
+
+```text
+blue_plazas/
+├── fxmanifest.lua
+├── README.md
+├── TESTING.md
+├── audio/                    # Game audio settings (.dat151.rel)
+├── docs/
+│   └── STRUCTURE.md          # Folder guide and update instructions
+├── tools/
+│   └── resource_layout.py    # Validate or organize a build
+└── stream/
+    ├── _manifest.ymf         # Interior registration
+    ├── interiors/
+    │   ├── bp_dp01/          # Each shop's shell, frames, glass, collision and placement
+    │   ├── bp_dp02/
+    │   ├── bp_dp03/
+    │   ├── bp_dp04/
+    │   ├── bp_dp05/
+    │   ├── bp_dp07/
+    │   └── bp_dp08/
+    ├── shared/               # Archetypes, common textures and door model
+    ├── exterior/
+    │   ├── models/           # Building and ground drawables
+    │   ├── collision/        # Exterior collision
+    │   └── lod/              # Distant building models
+    ├── occlusion/            # Visual occlusion map overrides
+    └── audio/                # Per-interior numeric audio metadata (.ymt)
+```
+
+See [the folder guide](docs/STRUCTURE.md) before updating an existing installation. This reorganization preserves all 108 streamed asset names and their contents.
+
 ## Testing v1.7.1
 
 **[Open the full testing checklist](TESTING.md)**

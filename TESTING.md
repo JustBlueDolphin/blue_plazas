@@ -53,7 +53,7 @@ Priority regression: exterior scenery was being hidden when looking through the 
 - [ ] Check side windows, upstairs windows and views between nearby shops for similar missing scenery.
 - [ ] Recheck with normal Gabz resources loaded after a full server restart. No temporary occlusion-disabling diagnostic may be running during acceptance testing.
 
-Operator check: compare the SHA-256 of `blue_plazas/stream/hei_sm_occl_00.ymap` with `cfx-gabz-mapdata/stream/gabz-occlusion/hei_sm_occl_00.ymap`. They must match the reviewed compatible file. The merged correction retains Gabz's 71 boxes and removes 21 plaza-intersecting triangles. Recheck after any Gabz update. Do not fix this by disabling occlusion globally.
+Operator check: compare the SHA-256 of `blue_plazas/stream/occlusion/hei_sm_occl_00.ymap` with `cfx-gabz-mapdata/stream/gabz-occlusion/hei_sm_occl_00.ymap`. They must match the reviewed compatible file. Older flat installations keep the plaza file directly under `stream/`. The merged correction retains Gabz's 71 boxes and removes 21 plaza-intersecting triangles. Recheck after any Gabz update. Do not fix this by disabling occlusion globally.
 
 ## 5. Window LOD and streaming transitions
 
